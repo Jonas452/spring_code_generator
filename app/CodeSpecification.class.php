@@ -5,7 +5,6 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 require_once('database/TableReader.class.php');
-require_once('spring/Spring.class.php');
 require_once('generator/LabelGenerator.class.php');
 require_once('generator/IsNullableGenerator.class.php');
 
